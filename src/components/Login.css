@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#contain {
+  height: 100vh;
+  background-image: url("../assets/aura.jpeg");
+  background-repeat: no-repeat;
+  background-position: 90px center;
+}
+
+#title,
+#titlee {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#title {
+  margin-left: 10%;
+  margin-top: 7%;
+}
+
+#titlee {
+  margin-top: 6%;
+}
+
+.input-con,
+.input-conn {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+}
+
+.input-conn {
+  margin-left: 15%;
+}
+
+label {
+  margin-top: 2%;
+}
+
+.in {
+  width: 20%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgb(44, 39, 39);
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px;
+  width: 20%;
+  background-color: #5391a1;
+  color: white;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin-top: 20px;
+}
+
+button:hover {
+  border-color: white;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.blah,
+.blahh,
+.peach {
+  position: absolute;
+  height: 800px;
+  margin-left: 60%;
+}
+
+.blahh {
+  margin-top: 1%;
+}
+
+.peach {
+  height: 400px;
+}
+
+#containn,
+.navv {
+  height: 100vh;
+}
+
+.navv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  border-radius: 10px;
+  background-color: transparent;
+  width: 80%;
+  margin: 1% 10% 0;
+  margin-top: 20px;
+  border: 2px solid black;
+}
+
+#virtual {
+  position: absolute;
+  font-family: "Cedarville Cursive", cursive;
+  color: #6e93c1;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.sub {
+  background-color: #5f997f;
+}

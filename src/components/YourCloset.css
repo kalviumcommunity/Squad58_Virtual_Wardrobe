@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.narrow {
+  display: flex;
+  height: 50px;
+  background-color: transparent;
+  align-items: center;
+  border-radius: 10px;
+  width: 80%;
+  margin: 1% 10% 0;
+  border: 1px solid black;
+  position: relative;
+}
+
+#circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 100px;
+  border: 1px solid black;
+  margin-left: 73%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inn {
+  height: 25px;
+  width: 20%;
+  padding-left: 20px;
+  border-radius: 5px;
+  margin-left: 3%;
+  border: none;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  cursor: pointer;
+  left: 43px;
+  bottom: 16.5px;
+}
+
+.search-icon img {
+  width: 10px;
+  height: 10px;
+}
+
+.banner {
+  height: 200px;
+  margin-top: 2%;
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: center;
+  background-image: url("../assets/closett.jpeg");
+  background-position: bottom;
+}
+
+#haha {
+  margin-top: 2%;
+  margin-left: 10%;
+}
+
+.grid {
+  margin-top: 2%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.shirt {
+  height: 300px;
+}
+
+.boxx {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  width: 200px;
+}
+
+.text {
+  margin-top: 5px;
+  margin-left: 7px;
+}
+
+#textpp {
+  color: rgb(141, 139, 139);
+}
+
+#camera {
+  height: 15px;
+}
